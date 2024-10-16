@@ -5,7 +5,7 @@ for i in cisla_in:
     cisla.append(float(i))
 
 avg_cisla = sum(cisla) / len(cisla)
-median_cisla = float
+
 
 if (len(cisla) % 2) == 1:                         # nefunguje ti pocitanie medianu
     median_cisla = cisla[(len(cisla)) // 2]
