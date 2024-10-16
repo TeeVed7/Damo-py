@@ -5,7 +5,8 @@ for i in cisla_in:
     cisla.append(float(i))
 
 avg_cisla = sum(cisla) / len(cisla)
-
+# musis tu pridat sorting
+cisla.sort()
 
 if (len(cisla) % 2) == 1:                         # nefunguje ti pocitanie medianu
     median_cisla = cisla[(len(cisla)) // 2]
